@@ -40,10 +40,6 @@ function levelUp(){
     let randomColor = btns[randomIdx]
     let randomBtn = document.querySelector(`.${randomColor}`)
 
-    // console.log(randomIdx);
-    // console.log(randomColor);
-    // console.log(randomBtn);
-
     gameSeq.push(randomColor);
     console.log(gameSeq);
 
@@ -72,7 +68,6 @@ for (btn of allBtns) {
 }
 
 function btnPress() {
-    // console.log(this) research about this
     let btn = this;
     userFlash(btn)
 
